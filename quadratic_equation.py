@@ -5,7 +5,7 @@ def quadratic_equation(a, b, c):
         This method solves the quadratic given a, c, b from the form ax^2+bx+c=0.
         If the quadratic has multiple solutions, this will return them in a list.
         Since quadratics can have complex solutions, use cmath to compute the square root.
-        If a divide by zero would occur, raise an exception.
+        If a divide by zero would occur, raise an appropriate exception.
         @:param a integer
         @:param b integer
         @:param c integer
